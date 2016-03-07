@@ -1,4 +1,6 @@
-#share{position: fixed;top:15%; right: 5px;z-index: 9;}
+/*#share{position: fixed;top:16%; right: 0px;z-index: 9;}*/
+/*#jumboShare{display: none;}*/
+/*#share:hover > #jumboShare{display: block;}*/
 /*#jumboShare{opacity: 0;}*/
 /*#share:hover #jumboShare{opacity: 1;}*/
 .mct_jumboShare {
