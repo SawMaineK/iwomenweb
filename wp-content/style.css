@@ -1235,7 +1235,7 @@ h4.title{text-transform: none;}
 .thumb-circle-detail h5{font-size: 17px;text-transform: none;}
 .thumb-circle-detail h4{font-size: 14px;text-transform: none;color: #777;}
 #iwomen-slider .thumb-img, .thumb-img img{min-height: 190px; max-height: 190px;}
-.download-app{position: absolute; left: 56%; top: 55%; left: 56%; z-index: 99998}
+.download-app{position: absolute; left: 56%; top: 60%; left: 56%; z-index: 999}
 
 
 /* IMAGE LIGHTBOX SELECTOR */

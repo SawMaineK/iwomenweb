@@ -823,12 +823,12 @@
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
                                                 <a href="#" title="link"> 
-                                                    <img src="images/DawHlaSanHtwe.png" data-lazy-src="images/DawHlaSanHtwe.png" class="attachment-thumbnail wp-post-image" alt="team2" />
-                                                    <noscript><img src="images/DawHlaSanHtwe.png" alt="team2" />
+                                                    <img src="images/mya_mya_htet.jpg" data-lazy-src="images/mya_mya_htet.jpg" class="attachment-thumbnail wp-post-image" alt="team2" />
+                                                    <noscript><img src="images/mya_mya_htet.jpg" alt="team2" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Hla San Htwe </strong> </h5><h4>Vice Chair Woman<h4>May Doe Kabar</h4></h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Dr. Mya Mya Thet </strong> </h5><h4>Translator</h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -1289,20 +1289,19 @@
                                  <h2 style="margin-top:95px;"><span class="title-highlight"> KEEP IN TOUCH WITH US</span></h2>
                             </div>
                             <div class="form-inne">
-                                <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
-                                    <div style="display: none;">
-                                        <input type="hidden" name="_wpcf7" value="5" />
-                                        <input type="hidden" name="_wpcf7_version" value="4.3" />
-                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1" />
-                                        <input type="hidden" name="_wpnonce" value="62acd834ab" />
+                                <form action="" method="post" class="wpcf7-form" id="contactus">
+                                    <div class="col-md-12 response-message hide">
+                                        <div class="alert alert-success alert-dismissible" role="alert">
+                                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                          <strong>Success!</strong> Thank you very much, we will reply very soon.
+                                        </div>
                                     </div>
                                     <div class='col-md-12'> 
-                                       <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" />
+                                       <span class="wpcf7-form-control-wrap your-name"><input type="text" id="name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" required />
                                         </span>
 
-                                        <br /><br/> <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="10" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span>
-                                        <br /> <br /><span class="wpcf7-form-control-wrap your-message"><textarea style="max-width:100%" name="your-message" cols="40" rows="10" class="wpcf12-form-control wpcf12-textarea wpcf12-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
+                                        <br /><br/> <span class="wpcf7-form-control-wrap your-email"><input type="email" id="email" name="your-email" value="" size="10" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" required/></span>
+                                        <br /> <br /><span class="wpcf7-form-control-wrap your-message"><textarea style="max-width:100%" id="message" name="your-message" required cols="40" rows="10" class="wpcf12-form-control wpcf12-textarea wpcf12-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
                                         <br /><br />
                                         <input type="submit" value="SEND" class="wpcf7-form-control wpcf7-submit" style="background-color:#EE3668;border: 1px solid;" />
                                     </div>
@@ -1396,6 +1395,31 @@
         <script>
         $(document).ready(function(){
           $("#jumboShare").jumboShare({url:"http://iwomenapp.org"});
+        });
+        $('#contactus').submit(function() {
+            // get all the inputs into an array.
+            $.ajax({
+                url: 'http://api.iwomenapp.org/api/v1/emails',
+                method: 'post',
+                data: {
+                    'name': $('#name').val(),
+                    'email': $('#email').val(),
+                    'message': $('#message').val()
+                },
+                success: function (response){
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('#message').val('');
+                    $('.response-message').removeClass('hide');
+                    console.log(response);
+                },
+                error: function (response) {
+                    console.log(response);
+                }
+            });
+
+            return false;
+
         });
         </script>
 </body>
