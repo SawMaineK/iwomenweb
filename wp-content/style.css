@@ -1205,8 +1205,10 @@ span{opacity:.5}.widgets-list-layout span:hover{opacity:.8}.one_half,.one_half_l
 .contact-bg{background-color: #FDECF2}
 .bg-white{background-color: #fff !important;}
 .isp-wm-bx-pager b, .slide-link{margin-right: 12px; font-weight: bold;}
-#inspiring-slider .bx-viewport{margin-bottom: 24px; max-height: 877px !important;}
-#iwomen-journey .bx-viewport{margin-bottom: 21px; max-height: 404px !important;}
+@media (min-width: 768px){
+	#inspiring-slider .bx-viewport{margin-bottom: 24px; max-height: 877px !important;}
+	#iwomen-journey .bx-viewport{margin-bottom: 21px; max-height: 404px !important;}
+}
 .fa-heart-o, .fa-heart{font-size: 24px;color:#000; margin-right: 12px;margin-top: 24px;}
 
 .active .fa-heart-o{color:#fff;}
