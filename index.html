@@ -84,6 +84,19 @@
         .popup-title {
             color: #fff
         }
+
+        @media (max-width: 768px){
+           .family-bx-pager .active .highlight,.family-bx-pager .highlight  {
+                    font-size: 14px;
+                    color: #fff;
+                    padding: 11px 9px;
+            }
+            .family-bx-pager .highlight{color: #000;}
+            .family-bx-pager .active .highlight{color: #fff;}
+            .family-bx-pager {
+                line-height: 41px;
+            }
+        }
     </style>
     <link rel="icon" href="images/cropped-logo7398.png?fit=32%2C32" sizes="32x32" />
     <link rel="icon" href="images/cropped-logoff94.png?fit=192%2C192" sizes="192x192" />
@@ -166,14 +179,20 @@
         </header>
         <div id="iwomen-home">
             <img src="images/assets/slider.png" alt="" style="width: 100%;" />
-            <div class="download-app">
-            <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.jpg" alt="" /></a>
-            <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.jpg" alt="" /></a>
+            <div class="download-app hidden-xs">
+                <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.jpg" alt="" /></a>
+                <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.jpg" alt="" /></a>
             </div>
         </div>
         <section class="wrapper block-about block-section" id="iwomen-app">
             <div class="container">
                 <div class="block-title">
+                    <div class="download-app1 visible-xs">
+                        <p>Download <b>iWomen App</b><br> to <b>Inspire</b> and <b>to be Inspired</b></p>
+                        <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.jpg" alt="" style="width: 40%" /></a>
+                        <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.jpg" alt="" style="width: 40%" /></a>
+                    </div>
+
                     <h2><span class="title-highlight">iWOMEN APP</span></h2>
                     <div class="block-title-divider"><span><i class="fa fa-circle"></i></span>
                 </div>

@@ -1229,6 +1229,8 @@ span{opacity:.5}.widgets-list-layout span:hover{opacity:.8}.one_half,.one_half_l
 .family-bx-pager{text-align: left;border-bottom: 3px solid #EA1E63;line-height: 58px;}
 .family-bx-pager .highlight{background-color: #FBD2E0;font-size: 24px; color: #fff;padding: 18px 24px;}
 .family-bx-pager .active .highlight{background-color: #EA1E63;font-size: 24px; color: #fff;padding: 18px 24px;}
+.family-bx-pager .highlight{color: #000;}
+.family-bx-pager .active .highlight{color: #fff;}
 /*#family-slider ..active .title-highlight{background-color:#EA1E63 }*/
 .details{max-height: 180px;overflow: hidden; line-height: 21px;margin-bottom: 4px; text-align: justify;}
 h4.title{text-transform: none;}
