@@ -682,7 +682,7 @@ a{color:#e5e5e5;margin-top:24px;font-size:24px;text-transform:inherit;font-weigh
 a{display:block}.site-title a:hover{opacity:0.7}.site-description{color:#999;font-family:'Montserrat',"Roboto",sans-serif;font-size:14px;font-weight:400;margin-top:5px;text-transform:inherit}@media only screen and (max-width: 1170px){.site-branding{width:96%;margin:0
 auto;padding:0}}@media only screen and (max-width: 991px){.site-title{text-align:center}h1.site-title,
 h1.site-title
-a{text-align:center;margin-top:10px;font-size:20px}}@media only screen and (max-width: 767px){.site-title{text-align:left}.site-branding{text-align:center}}.main-navigation{clear:both;display:block;float:left;width:100%;background:none repeat scroll 0 0 rgba(0, 0, 0, 0);text-align:right;margin-top:50px;margin-bottom:10px}.main-navigation.full-width-menu .nav-menu{width:1170px;margin:0
+a{text-align:center;margin-top:10px;font-size:20px}}@media only screen and (max-width: 767px){.site-title{text-align:left}.site-branding{text-align:center}}.main-navigation{clear:both;display:block;float:left;width:100%;background:none repeat scroll 0 0 rgba(0, 0, 0, 0);text-align:right;margin-top:32px;margin-bottom:10px}.main-navigation.full-width-menu .nav-menu{width:1170px;margin:0
 auto;padding-left:15px;padding-right:15px}@media only screen and (max-width: 1170px){.main-navigation .nav-menu{width:100%;margin:0
 auto;padding:0}}@media only screen and (max-width: 992px){.main-navigation{text-align:center;margin-top:0;margin-bottom:0}}.main-navigation
 ul{list-style:none;margin:0;padding-left:0;margin-top: 9px}.main-navigation
