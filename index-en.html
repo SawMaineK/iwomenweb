@@ -99,6 +99,34 @@
                 line-height: 41px;
             }
         }
+        .logo {
+            padding: 21px 0px
+        }
+        .logo img {
+            height: 120px;
+        }
+        .btn-pdf-download {
+            border-radius: 0px;
+            background: #6dcff6;
+            text-decoration: none;
+            border: none;
+        }
+        .download img {
+            float: left;
+        }
+        .download span {
+            float: left;
+            margin: 6px 16px;
+        }
+        .download-link {
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 32px;
+        }
+        .contact {
+            width: 132px;
+            float: left;
+        }
         
     </style>
     <link rel="icon" href="images/favicon_iwomen.png?fit=32%2C32" sizes="32x32" />
@@ -134,13 +162,12 @@
         <header class="wrapper wrap-header navbar-fixed-top" role="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 nopadding">
+                    <div class="col-md-2 logo">
                         <img src="images/assets/logo.png" id="logo">
-                        <!-- <h1 class="site-title"> <a href="/" rel="home" title="link"> eVision Corporate<h2 class="site-description">Just another Responsive WordPress site</h2> </a></h1> -->
                     </div>
                     <div class="col-md-10">
                         <div class="main-navigation">
-                                    <div style="position: absolute;right: 18px;top: 0px;">
+                                    <div style="position: absolute;right: 18px;top: 60px;">
                                         <ul>
                                             <li><a href="index" >ျမန္မာ</a></li>
                                             <li class="divider">|</li>
@@ -158,24 +185,18 @@
                                     <ul id="iwomen-front-page" class="menu">
                                         <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="#iwomen-home">HOME</a>
                                         </li>
-                                        <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="#iwomen-app">iWOMEN APP</a>
+                                        <!-- <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="#iwomen-app">iWOMEN APP</a> -->
                                         </li>
                                         <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="#iwomen-take-a-tour">TAKE A TOUR</a>
                                         </li>
-                                        <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="#iwomen-inspiring">iSTORIES</a>
+                                        <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="#iwomen-inspiring">STORIES </a>
                                         </li>
-                                        <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="#iwomen-family">iFAMILY</a>
+                                        <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="#iwomen-family">LEADERSHIP</a>
                                         </li>
-                                        <li id="menu-item-99" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#iwomen-journey">iJOURNEY</a>
+                                        <li id="menu-item-99" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"><a href="#iwomen-journey">JOURNEY</a>
                                         </li>
                                         <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="#iwomen-contact-us">CONTACT US</a>
                                         </li>
-                                        <!-- <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="#iwomen-blog">Blog</a>
-                                        </li>
-                                        <li id="menu-item-100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="#iwomen-team">Team</a>
-                                        </li>
-                                        <li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="#iwomen-map">Contact</a>
-                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -184,35 +205,43 @@
                 </div>
         </header>
         <div id="iwomen-home">
-            <img src="images/assets/slider.png" alt="" style="width: 100%;" />
-            <div class="download-app hidden-xs">
-                <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.png" alt="" /></a>
-                <!-- <a href="http://api.iwomenapp.org/apk/download"><img src="images/assets/download1.jpg" alt="" /></a> -->
-                <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.png" alt="" /></a>
-            </div>
+            <img src="images/assets/slider-en.jpg" alt="" style="width: 100%;" />
         </div>
-        <!-- <section class="wrapper hero-banner-block" id="iwomen-slider">
-            <ul class="iwomen-main-slider">
-                <li> 
-                    <img src="images/assets/slider.png" alt="" />
-                    
-                </li>
-            </ul>
-        </section> -->
-        <section class="wrapper block-about block-section" id="iwomen-app">
+        <section class="wrapper block-about" id="iwomen-app">
             <div class="container">
                 <div class="block-title">
-                    <div class="download-app1 visible-xs">
-                        <p>Download <b>iWomen App</b><br> to <b>Inspire</b> and <b>to be Inspired</b></p>
-                        <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.png" alt="" style="width: 40%" /></a>
-                        <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.png" alt="" style="width: 40%" /></a>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p>May Doe Kabar was launched on October 15, 2015 with  support from the United Nations Development Programme (UNDP).  It creates a channel for realising the colletive voices of rural women for inclusion in local and national policies. May Doe Kabar responds to the current needs and long-term aspirations of rural women to promote the role and leadership of rural women and their contribution to sustainable development and gender equality.</p> 
+
+                            <p>TheMayDoeKabar members are also connected through the iWomen Inspiring Women App, a free mobile co developed with UNDP and launch at 2016.</p>
+
+                            <p><b>iWomen - Inspiring Women</b> is a free mobile application developed by Myanmar tech women for Myanmar rural women. iWomen app connects women living in rural villages across Myanmar to inspire, foster self-belief, and channel mentorship and peer support into their daily lives as they expand their roles in public and private spheres to become respected leaders in their communities.</p>
+
+                            <p>iWomen app is a joint initiative of UNDP Myanmar and May Doe Kabar National Network of Rural Women. The Network connects over 2000 Self-Reliant Groups, formed under the Human Development Initiative Programme, and their township federations in 31 townships across Myanmar, with a membership of 22,000 women.</p>
+
+                            <p>Get inspired! Get Knowledgeable and connect to the first Network of Myanmar Rural Women!</p>
+
+                            <p><a href="#" class="btn btn-primary btn-pdf-download">Download May Doe Kabar Township Leading Group Profile</a></p>
+                            <p class="download">
+                                <img src="images/assets/logo-2.png">
+                                <span>
+                                    <b>Download iWomen App<br> to Inspire and to be Inspired</b>
+                                </span>
+                            </p>
+                            <br>
+                            <p>
+                                <div class="download-link">
+                                    <a href="https://play.google.com/store/apps/details?id=org.undp_iwomen.iwomen"><img src="images/assets/download.png" alt="" /></a>
+                                    <a href="http://api.iwomenapp.org/apk/download"><img src="images/assets/download1.jpg" alt="" /></a>
+                                    <a href="http://api.iwomenapp.org/apk/iwomen.apk"><img src="images/assets/download1.png" alt="" /></a>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/assets/maps.png">
+                        </div>
                     </div>
-                    <h2><span class="title-highlight">iWOMEN APP</span></h2>
-                    <!-- <h2>WELCOME TO <span class="title-highlight">eVision Themes</span> <span class="block-company-slogan">- Simple &amp; Elegant WordPress Themes</span></h2> -->
-                    <div class="block-title-divider"><span><i class="fa fa-circle"></i></span>
-                </div>
-                    <p class="lead text-left"><strong>iWomen - </strong> Inspiring Women is a free mobile application developed by Myanmar tech women for Myanmar rural women. iWomen app connects women living in rural villages across Myanmar to inspire, foster self-belief, and channel mentorship and peer support into their daily lives as they expand their roles in public and private spheres to become respected leaders in their communities.</p>
-                    <p class="lead text-left">iWomen app is a joint initiative of UNDP Myanmar and May Doe Kabar National Network of Rural Women. The Network connects over 2000 Self-Reliant Groups, formed under the Human Development Initiative Programme, and their township federations in 31 townships across Myanmar, with a membership of 22,000 women.</p>
                 </div>
                
             </div>
@@ -794,17 +823,9 @@
 
         <section class="wrapper block-portfolio block-section" id="iwomen-family">
             <div class="container">
-               <!--  <div class="block-title">
-                    <h2><span class="title-highlight">iWOMEN FAMILY</span></h2>
-                    <div class="block-title-divider"><span><i class="fa fa-circle"></i></span>
-                    </div>
-                </div> -->
-
-                
                 <div class="col-md-12 wrapper hero-banner-block" id="family-slider">
                     <div class="family-bx-pager">
-                      <a data-slide-index="0" href=""><span class="highlight">iWOMEN FAMILY</span></a>
-                      <a data-slide-index="1" href=""><span class="highlight">iVOLUNTEERS</span></a>
+                      <a data-slide-index="0" href=""><span class="highlight">LEADERSHIP</span></a>
                     </div>
 
                     <ul class="family-slider">
@@ -815,12 +836,12 @@
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
                                                 <a href="#" title="link"> 
-                                                    <img src="images/may_doe_kabar.png" data-lazy-src="images/may_doe_kabar.png" class="attachment-thumbnail wp-post-image" alt="team4" />
-                                                    <noscript><img src="images/may_doe_kabar.png" alt="team4" />
+                                                    <img src="images/assets/daw-cho-aye.png" data-lazy-src="images/assets/daw-cho-aye.png" class="attachment-thumbnail wp-post-image" alt="team4" />
+                                                    <noscript><img src="images/assets/daw-cho-aye.png" alt="team4" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts" title="view details"><h5 style="color:gray;"><strong>May Doe Kabar </strong></h5><h4> National Network of<h4>Rural Myanmar Women</h4></h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="https://www.facebook.com/May-Doe-Kabar-1639831926295425/?fref=ts" title="view details"><h5 style="color:gray;"><strong>Daw Cho Aye</strong></h5><h4>Chair Woman<h4>May Doe Kabar</h4></h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -829,12 +850,12 @@
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
                                                 <a href="#" title="link"> 
-                                                    <img src="images/DawChoAye.png" data-lazy-src="images/DawChoAye.png" class="attachment-thumbnail wp-post-image" alt="team1" />
-                                                    <noscript><img src="images/DawChoAye.png" alt="team1" />
+                                                    <img src="images/assets/daw-hla-san-htwe.png" data-lazy-src="images/assets/daw-hla-san-htwe.png" class="attachment-thumbnail wp-post-image" alt="team1" />
+                                                    <noscript><img src="images/assets/daw-hla-san-htwe.png" alt="team1" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Cho Aye </strong></h5><h4>Chair Woman<h4>May Doe Kabar</h4></h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Hla San Htwe</strong></h5><h4>Vice Chair Woman<h4>May Doe Kabar</h4></h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -843,12 +864,12 @@
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
                                                 <a href="#" title="link"> 
-                                                    <img src="images/mya_mya_htet.jpg" data-lazy-src="images/mya_mya_htet.jpg" class="attachment-thumbnail wp-post-image" alt="team2" />
-                                                    <noscript><img src="images/mya_mya_htet.jpg" alt="team2" />
+                                                    <img src="images/assets/daw-nyo-nyo-san.png" data-lazy-src="images/assets/daw-nyo-nyo-san.png" class="attachment-thumbnail wp-post-image" alt="team2" />
+                                                    <noscript><img src="images/assets/daw-nyo-nyo-san.png" alt="team2" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Dr. Mya Mya Thet </strong> </h5><h4>Translator</h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Nyo Nyo San</strong> </h5><h4>Secretary<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -857,12 +878,12 @@
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/allison_moore.png" data-lazy-src="images/allison_moore.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/allison_moore.png" alt="team3" />
+                                                <a href="#" title="link"> <img src="images/assets/daw-oo-khin-thein.png" data-lazy-src="images/assets/daw-oo-khin-thein.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-oo-khin-thein.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Allison Moore</strong> </h5><h4>Programme Specialist<h4>UNDP Myanmar</h4></h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Oo Khin Thein</strong> </h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -871,12 +892,12 @@
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
                                                 <a href="http://eleonoragatti.strikingly.com" title="link"> 
-                                                    <img src="images/eleonora_gatti.png" data-lazy-src="images/eleonora_gatti.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/eleonora_gatti.png" alt="team3" />
+                                                    <img src="images/assets/daw-man-lam-num.png" data-lazy-src="images/assets/daw-man-lam-num.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-man-lam-num.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong> Eleonora Gatti</strong> </h5><h4>Founder<h4> Great Women Speak Out</h4></h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Man Lam Num</strong> </h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -885,26 +906,26 @@
                                      <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
-                                                <a href="http://khin-sandar.strikingly.com" title="link"> <img src="images/khin_sandar.png" data-lazy-src="images/khin_sandar.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/khin_sandar.png" alt="team3" />
+                                                <a href="http://khin-sandar.strikingly.com" title="link"> <img src="images/assets/daw-su-su-aye.png" data-lazy-src="images/assets/daw-su-su-aye.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-su-su-aye.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Khin Sandar Win</strong></h5><h4>Mobile Developer</h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Su Su Aye</strong></h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                 <div class="row-same-height">
+                                <div class="row-same-height">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/sawmainek.png" data-lazy-src="images/sawmainek.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/sawmainek.png" alt="team3" />
+                                                <a href="#" title="link"> <img src="images/assets/daw-aye-aye-maw.png" data-lazy-src="images/assets/daw-aye-aye-maw.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-aye-aye-maw.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong> Saw Maine K</strong> </h5><h4>Web Developer</h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Aye Aye Maw </strong> </h5><h4>Chair Woman<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -912,198 +933,115 @@
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/htet_su_wai.png" data-lazy-src="images/htet_su_wai.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/htet_su_wai.png" alt="team3" />
+                                                <a href="#" title="link"> <img src="images/assets/daw-san-san-htay.png" data-lazy-src="images/assets/daw-san-san-htay.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-san-san-htay.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong> Htet Su Wai</strong> </h5><h4>Designer</h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw San San Htay</strong> </h5><h4>Vice Chair Woman<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
                                         <div class="thumb-circle-inner">
                                             <div class="thumb-circle-img">
-                                                <a href="https://www.facebook.com/jooskillustration/" title="link"> <img src="images/joosk.png" data-lazy-src="images/joosk.png" class="attachment-thumbnail wp-post-image" alt="team../assets/Font-Awesome/fonts/" />
-                                                    <noscript><img src="images/joosk.png" alt="team3" />
+                                                <a href="https://www.facebook.com/jooskillustration/" title="link"> <img src="images/assets/daw-khin-htwe-myint.png" data-lazy-src="images/assets/daw-khin-htwe-myint.png" class="attachment-thumbnail wp-post-image" alt="team../assets/Font-Awesome/fonts/" />
+                                                    <noscript><img src="images/assets/daw-khin-htwe-myint.png" alt="team3" />
                                                     </noscript>
                                                 </a>
                                             </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Joosk Illustration</strong></h5><h4>Illustration Team</h4> </a>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Khin Htwe Myint</strong></h5><h4>Secretary<br>May Doe Kabar</h4> </a>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row-same-height">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="#" title="link"> <img src="images/assets/daw-thein-aye.png" data-lazy-src="images/assets/daw-thein-aye.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-thein-aye.png" alt="team3" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Thein Aye</strong> </h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="#" title="link"> <img src="images/assets/daw-nu-nu-yee.png" data-lazy-src="images/assets/daw-nu-nu-yee.png" class="attachment-thumbnail wp-post-image" alt="team3" />
+                                                    <noscript><img src="images/assets/daw-nu-nu-yee.png" alt="team3" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Nu Nu Yee</strong> </h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="https://www.facebook.com/jooskillustration/" title="link"> <img src="images/assets/daw-tom-ei-yum.png" data-lazy-src="images/assets/daw-tom-ei-yum.png" class="attachment-thumbnail wp-post-image" alt="team../assets/Font-Awesome/fonts/" />
+                                                    <noscript><img src="images/assets/daw-tom-ei-yum.png" alt="team3" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Tom Ei Yum</strong></h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-same-height">
+                                    <div class="row-same-height">
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="#" title="link"> 
+                                                    <img src="images/assets/daw-thae-nu-aye.png" data-lazy-src="images/assets/daw-thae-nu-aye.png" class="attachment-thumbnail wp-post-image" alt="team4" />
+                                                    <noscript><img src="images/assets/daw-thae-nu-aye.png" alt="team4" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Thae Nu Aye</strong></h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="#" title="link"> 
+                                                    <img src="images/assets/daw-aye-aye-san.png" data-lazy-src="images/assets/daw-aye-aye-san.png" class="attachment-thumbnail wp-post-image" alt="team1" />
+                                                    <noscript><img src="images/assets/daw-aye-aye-san.png" alt="team1" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Daw Aye Aye San</strong></h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
+                                        <div class="thumb-circle-inner">
+                                            <div class="thumb-circle-img">
+                                                <a href="#" title="link"> 
+                                                    <img src="images/assets/daw-yaw-paing.png" data-lazy-src="images/assets/daw-yaw-paing.png" class="attachment-thumbnail wp-post-image" alt="team2" />
+                                                    <noscript><img src="images/assets/daw-yaw-paing.png" alt="team2" />
+                                                    </noscript>
+                                                </a>
+                                            </div>
+                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Daw Yaw Paing</strong> </h5><h4>Board of Director<br>May Doe Kabar</h4> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="row thumb-circle-container">
-                                <div class="row-same-height">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> 
-                                                    <img src="images/Aye Aye Maw.jpg" data-lazy-src="images/Aye Aye Maw.jpg" class="attachment-thumbnail wp-post-image" alt="team4" />
-                                                    <noscript><img src="images/Aye Aye Maw.jpg" alt="team4" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Aye Aye Maw</strong></h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> 
-                                                    <img src="images/Aye Hninn Khine.jpg" data-lazy-src="images/Aye Hninn Khine.jpg" class="attachment-thumbnail wp-post-image" alt="team1" />
-                                                    <noscript><img src="images/Aye Hninn Khine.jpg" alt="team1" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Aye Hninn Khine </strong></h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> 
-                                                    <img src="images/Kadipar Aung Myo Han.jpg" data-lazy-src="images/Kadipar Aung Myo Han.jpg" class="attachment-thumbnail wp-post-image" alt="team2" />
-                                                    <noscript><img src="images/Kadipar Aung Myo Han.jpg" alt="team2" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Kadipar Aung Myo Han </strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row-same-height">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/Khine Lwin.jpg" data-lazy-src="images/Khine Lwin.jpg" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/Khine Lwin.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Khine Lwin Myint</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> 
-                                                    <img src="images/Nwal lay.jpg" data-lazy-src="images/Nwal lay.jpg" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/Nwal lay.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Nwal lay</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/winmarkhine.jpg" data-lazy-src="images/winmarkhine.jpg" class="attachment-thumbnail wp-post-image" alt="Win Mar Khine" />
-                                                    <noscript><img src="images/winmarkhine.jpg" alt="Win Mar Khine" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Win Mar Khine</strong></h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row-same-height">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/wailinmaung.jpg" data-lazy-src="images/wailinmaung.jpg" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/wailinmaung.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Wai Lin Maung</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/jl.jpg" data-lazy-src="images/jl.jpg" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/jl.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Lae Yin Win</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/laminphyu.jpg" data-lazy-src="images/laminphyu.jpg" class="attachment-thumbnail wp-post-image" alt="team../assets/Font-Awesome/fonts/" />
-                                                    <noscript><img src="images/laminphyu.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Lamin Phyu Phyu</strong></h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row-same-height">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/khinsulinn.png" data-lazy-src="images/khinsulinn.png" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/khinsulinn.png" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Wai Lin Maung</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <!-- <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/jl.jpg" data-lazy-src="images/jl.jpg" class="attachment-thumbnail wp-post-image" alt="team3" />
-                                                    <noscript><img src="images/jl.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray;"><strong>Lae Yin Win</strong> </h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                    
-                                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-height">
-                                        <!-- <div class="thumb-circle-inner">
-                                            <div class="thumb-circle-img">
-                                                <a href="#" title="link"> <img src="images/laminphyu.jpg" data-lazy-src="images/laminphyu.jpg" class="attachment-thumbnail wp-post-image" alt="team../assets/Font-Awesome/fonts/" />
-                                                    <noscript><img src="images/laminphyu.jpg" alt="team3" />
-                                                    </noscript>
-                                                </a>
-                                            </div>
-                                            <div class="thumb-circle-detail"> <a href="#" title="view details"><h5 style="color:gray"><strong>Lamin Phyu Phyu</strong></h5><h4>Volunteer</h4> </a>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                </div>
                         </li>
                     </ul>
 
@@ -1125,8 +1063,6 @@
                     <h2><span class="title-highlight">iWOMEN JOURNEY</span></h2>
                     <div class="block-title-divider"><span><i class="fa fa-circle"></i></span>
                     </div>
-                    <!-- <p class="lead">eVision Themes is working in collaboration with many national / international agents and clients. Few of the projects which are legitimate
-                        <br> to put in the website are listed below. Have a look!</p> -->
                 </div>
                 <div class="col-md-12 wrapper hero-banner-block" id="iwomen-journey">
                     <ul class="journey-slider">
@@ -1391,6 +1327,22 @@
                             </div>
                             <br><br>
                             <div class="text-left">
+                                <h4 class="title">May Doe Kabar </h4>
+                                <br>
+                                <p>No.26/s, Sabai (1) Street, Kantkaw Qr <br>Kyaikhto<br>Republic of the Union of Myanmar</p>
+                                <p><span class="contact">Phone            </span>:(959) 788 780 212</p>          
+                                <p><span class="contact">Facebook         </span>:May Doe Kabar</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper block-portfolio block-section" id="iwomen-contact-us">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-12" style="margin-left: 24px;">
+                            <div class="text-left">
                                 <h4 class="title">Articles</h4><br>
                                 <a href="http://www.mmtimes.com/index.php/business/technology/19363-iwomen-app-inspires-poetry.html">
                                 <p>iWomen App Inspires Poetry</p>
@@ -1424,6 +1376,17 @@
                                 <a href="https://www.linkedin.com/pulse/crowdfunding-old-fashioned-way-christina-teo?trk=prof-post">
                                 <p>Crowdfunding the old fashioned way</p>
                                 </a>
+                                <a href="https://diinsider.com/2017/03/27/iwomen-how-technology-helps-empowering-rural-women-in-myanmar-2/">
+                                <p>iWomen: how technology helps empowering rural women in Myanmar</p>
+                                </a>
+                                <a href="http://www.parisglobalist.org/empowering-rural-burmese-women-app/">
+                                <p>Empowering Rural Burmese Women Through An App</p>
+                                </a>
+                                 <a href="http://www.opengovasia.com/articles/7815-undp-innovation-facility-driving-multiple-projects-in-indonesia-through-broad-partnerships">
+                                <p>UNDP Innovation Facility driving multiple projects in Indonesia through broad partnerships
+                                </p>
+                                </a>
+          
                             </div>
                         </div>
                 </div>
@@ -1434,7 +1397,7 @@
             <div class="container bottom-footer">
                 <div class="row">
                     <div class="col-md-12">
-                       <p class="text-center" style="margin-top: 15px;"> &copy; 2016 Copy right iWomen Mobile Application Myanmar</p>
+                       <p class="text-center" style="margin-top: 15px;"> &copy; 2016 Copy right May Doe Kabar National Network of Rural Women and iWomen Mobile Application</p>
                     </div>
                 </div>
         </footer> <a class="iwomen-back-to-top" href="#page"><i class="fa fa-angle-up"></i></a>
